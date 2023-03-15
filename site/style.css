@@ -1,0 +1,33 @@
+
+.had{
+    margin: 20px;
+    font-size: 20px;;
+    background-color: white;
+    width: 400px;
+    display: inline-block;
+}
+.fg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-display:inherit;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0px;
+    font-size: 20px;
+}
+.bbd{
+    margin: 0;
+    padding: 0;
+    font-family: monserrat;
+}
+.loo{
+    color:rgb(89, 0, 255);
+}
+.cadre{
+    background-color: gray;
+}
+.navigation a:hover,
+.navigation a.active {
+    background: red;
+    color: #fff;
+}

@@ -1,0 +1,47 @@
+.navigation a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.navigation a:hover,
+.navigation a.active {
+    background: rgb(255, 196, 0);
+    color: #fff;
+}
+
+
+header{
+top:0;
+left:0;
+right: 90%;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: left;
+z-index: 100;
+}
+
+p{
+    bottom: 100%;
+    text-align: bottom;
+    color: white;
+}
+
+p #a{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    color: black;
+    margin-top: 20px;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+}
+body{
+    background-image: url(../imgb/sick.jpg);
+    background: image 500px 300px ;
+}
